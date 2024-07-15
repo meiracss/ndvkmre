@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c57878;
+}
+
+.header__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header__logout {
+    background-color: #c49494;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+
+.profile {
+    display: flex;
+    padding: 20px;
+}
+
+.profile__picture {
+    width: 100px;
+    height: 100px;
+    background-color: #6b5c5c;
+    border-radius: 50%;
+}
+
+.profile__info {
+    margin-left: 20px;
+}
+
+.profile__name {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.profile__description {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+.friends {
+    padding: 20px;
+}
+
+.friends__title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.friends__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.friends__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.friends__avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #6b5c5c;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.friends__name {
+    font-size: 1rem;
+}
+
+.footer {
+    padding: 10px 20px;
+    background-color: #c57878;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link {
+    margin: 0 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
